@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>listen to a joke</title>
+  <link href='http://cdn.webfont.youziku.com/webfonts/nomal/111834/46870/5a3248c1f629d80714f6e983.css' rel='stylesheet' type='text/css'
+  />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+  <header>
+    <div id="title">
+      <div id="titleContent"></div>
+      Listen to a joke
+    </div>
+    <div id="controler">
+      <span id="setting">设置</span>
+    </div>
+  </header>
+  <div id="main">
+  </div>
+  <footer>
+      <span id="refresh">更多</span>
+  </footer>
+
+
+  <div id="page-wrapper">
+    <div id="setContent">
+
+      <h3>设置</h3>
+      <p id="msg"></p>
+      <div class="option">
+        <label for="voice">声音</label>
+        <select name="voice" id="voice"></select>
+      </div>
+      <div class="option">
+        <label for="volume">音量</label>
+        <input type="range" min="0" max="1" step="0.1" name="volume" id="volume" value="1">
+      </div>
+      <div class="option">
+        <label for="rate">速度</label>
+        <input type="range" min="0.1" max="10" step="0.1" name="rate" id="rate" value="1">
+      </div>
+      <div class="option">
+        <label for="pitch">音调</label>
+        <input type="range" min="0" max="2" step="0.1" name="pitch" id="pitch" value="1">
+      </div>
+      <div class="option">
+        <div id="close">关闭</div>
+      </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
